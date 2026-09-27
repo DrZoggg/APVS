@@ -10,3 +10,8 @@ This system provides a comprehensive quantification of atherosclerotic plaque vu
 If you use this research or code, please cite the associated peer-reviewed article:
 
 Atherosclerotic plaque vulnerability quantification system for clinical and biological interpretability. *iScience* (2023). https://doi.org/10.1016/j.isci.2023.107587
+
+
+## Evidence and citation resources
+
+An [author-maintained evidence summary](https://drgezhang.com/papers/apvs.html) provides the study's key findings, evidence boundaries, and citation downloads. For formal academic citation, use the article DOI listed above.
