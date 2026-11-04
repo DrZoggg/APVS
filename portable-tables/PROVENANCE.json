@@ -1,0 +1,216 @@
+{
+  "format_version": 1,
+  "source_repository": "https://github.com/DrZoggg/APVS",
+  "source_commit": "c1bd0e5321ff39b5f7b0fa5242164a4c3bf1b2b2",
+  "source_tree": "b64a50f7c688fbdddfdea24130515a69e6ddc693",
+  "associated_formal_DOI": "10.1016/j.isci.2023.107587",
+  "association_locator": "README.md Citation section in the same fixed commit; no per-table article/figure mapping asserted",
+  "source_README_url": "https://github.com/DrZoggg/APVS/blob/c1bd0e5321ff39b5f7b0fa5242164a4c3bf1b2b2/README.md",
+  "encoding": {
+    "format": "CSV",
+    "charset": "UTF-8",
+    "delimiter": ",",
+    "line_ending": "LF",
+    "quoted_fields": true,
+    "double_precision": "17 significant decimal digits; verified R/Python numeric bit equality",
+    "na_token": "__APVS_R_NA__",
+    "na_token_collision_with_actual_strings": false,
+    "literal_NA_string_is_missing": false,
+    "row_names": "Original row labels exported verbatim as __rowname__; this is a label, not an inferred sample ID"
+  },
+  "tables": {
+    "RMSE_residual": {
+      "csv": "RMSE_residual.csv",
+      "csv_sha256": "a03aa3fa0b60af5f39c1f564cdc21c0a6079efb5173b5a26f449ad6ab562b57f",
+      "source_path": "APVS Generation/RMSE_residual.rda",
+      "source_object": "RMSE_residual",
+      "source_git_blob_sha1": "580b3e3e0531ee118d887038d6027753a279be81",
+      "source_RDA_sha256": "88ef8a7985b02e34ef8cd7177686e57b5b5c18b02fd62947364c8e20b2fa28fe",
+      "source_bytes": 2530,
+      "rows": 414,
+      "data_columns": 3,
+      "rowname_column": "__rowname__",
+      "original_row_names_automatic": true,
+      "columns": [
+        {
+          "name": "model_type",
+          "R_typeof": "integer",
+          "R_class": "factor",
+          "factor_levels": [
+            "mp_rpart",
+            "mp_pls",
+            "mp_knn",
+            "mp_bayes",
+            "mp_treebag",
+            "mp_glmnet",
+            "mp_glmboost",
+            "mp_rf",
+            "mp_nnet"
+          ],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "RMSE",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "residual",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        }
+      ]
+    },
+    "performance": {
+      "csv": "performance.csv",
+      "csv_sha256": "5109a56662a1e85549798e9f1b6118bcb1aa95ee303b3e2222558e58fe51a8b3",
+      "source_path": "APVS Generation/performance.rda",
+      "source_object": "performance",
+      "source_git_blob_sha1": "f27aac9e6345c2553bb2cb8c37aa85bb103c7692",
+      "source_RDA_sha256": "dd2c52935618ee435c257989c8f547040a332ee5900f9e914ab7fc3e0822d6ac",
+      "source_bytes": 489,
+      "rows": 5,
+      "data_columns": 10,
+      "rowname_column": "__rowname__",
+      "original_row_names_automatic": true,
+      "columns": [
+        {
+          "name": "X",
+          "R_typeof": "character",
+          "R_class": "character",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "nnet",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "rf",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "glmboost",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "glmnet",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "treebag",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "bayes",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "knn",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "pls",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "rpart",
+          "R_typeof": "double",
+          "R_class": "numeric",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        }
+      ]
+    },
+    "IPSG": {
+      "csv": "IPSG.csv",
+      "csv_sha256": "1bf2bd459a994687d6f030319a6fc9aed8cddedff3f1753ab2ea475c8bc1613f",
+      "source_path": "APVSLevel Interpretability/IPS ref.rda",
+      "source_object": "IPSG",
+      "source_git_blob_sha1": "d2ee862fd68e5a0d14cd9a8c99a1a670964cad6f",
+      "source_RDA_sha256": "95bb22954252a88992a5b72461ec474e8afe85a825f168a6ca052473bcd14baa",
+      "source_bytes": 1014,
+      "rows": 162,
+      "data_columns": 4,
+      "rowname_column": "__rowname__",
+      "original_row_names_automatic": true,
+      "columns": [
+        {
+          "name": "GENE",
+          "R_typeof": "character",
+          "R_class": "character",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "NAME",
+          "R_typeof": "character",
+          "R_class": "character",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "CLASS",
+          "R_typeof": "character",
+          "R_class": "character",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        },
+        {
+          "name": "WEIGHT",
+          "R_typeof": "integer",
+          "R_class": "integer",
+          "factor_levels": [],
+          "NA_including_NaN": 0,
+          "NaN": 0
+        }
+      ]
+    }
+  },
+  "material_scope": "Faithful generic-format exports of the named public repository objects. No new model, recalculated metric, sample identity, per-paper table role or clinical meaning is inferred. IPSG fields and weights are retained; this is not a complete APVS predictive model.",
+  "licensing": "The fixed upstream tree/API metadata declares no license. No new license grant is added by this conversion; check the source owner terms for intended reuse."
+}

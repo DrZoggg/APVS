@@ -15,3 +15,7 @@ Atherosclerotic plaque vulnerability quantification system for clinical and biol
 ## Evidence and citation resources
 
 An [author-maintained evidence summary](https://drgezhang.com/papers/apvs.html) provides the study's key findings, evidence boundaries, and citation downloads. For formal academic citation, use the article DOI listed above.
+
+## Read the stored tables in Python
+
+[Portable tables](portable-tables/README.md) provide CSV copies of the existing R data objects, with source provenance and a standard-library Python example.
