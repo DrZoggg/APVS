@@ -11,6 +11,8 @@ If you use this research or code, please cite the associated peer-reviewed artic
 
 Atherosclerotic plaque vulnerability quantification system for clinical and biological interpretability. *iScience* (2023). https://doi.org/10.1016/j.isci.2023.107587
 
+[Create the article citation in ZoteroBib](https://zbib.org/import?q=10.1016%2Fj.isci.2023.107587) using the paper DOI.
+
 
 ## Evidence and citation resources
 
