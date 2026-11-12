@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: If you use the APVS research materials, please cite the associated peer-reviewed article
+  in preferred-citation.
+type: software
+title: APVS
+authors:
+- name: APVS project
+repository-code: https://github.com/DrZoggg/APVS
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Zhang
+    given-names: Ge
+  - family-names: Cui
+    given-names: Xiaolin
+  - family-names: Qin
+    given-names: Zhen
+  - family-names: Wang
+    given-names: Zeyu
+  - family-names: Lu
+    given-names: Yongzheng
+  - family-names: Xu
+    given-names: Yanyan
+  - family-names: Xu
+    given-names: Shuai
+  - family-names: Tang
+    given-names: Laiyi
+  - family-names: Zhang
+    given-names: Li
+  - family-names: Liu
+    given-names: Gangqiong
+  - family-names: Wang
+    given-names: Xiaofang
+  - family-names: Zhang
+    given-names: Jinying
+  - family-names: Tang
+    given-names: Junnan
+  title: Atherosclerotic plaque vulnerability quantification system for clinical and biological
+    interpretability
+  journal: iScience
+  year: 2023
+  volume: '26'
+  issue: '9'
+  start: '107587'
+  doi: 10.1016/j.isci.2023.107587
+  url: https://doi.org/10.1016/j.isci.2023.107587
